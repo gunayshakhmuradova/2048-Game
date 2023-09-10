@@ -1,0 +1,146 @@
+/* Header */
+h1 {
+  font-size: 36px; 
+  color: #776e65; 
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+
+
+/* Score */
+h2 {
+  width: 120px;
+  height: auto;
+  background-color: #f5eadf;
+  border: 1px solid #f2b179;
+  border-radius: 5px; 
+  padding: 10px; 
+  font-size: 18px; 
+  color: #776e65; 
+  text-align: center;
+  margin: 1rem auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold; 
+  
+}
+
+#score {
+  background-color: #eee4da; 
+  border-radius: 3px;
+  padding: 5px 10px; 
+  color: #776e65; 
+}
+
+
+
+/* Button */
+#start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 10px 20px;
+  background-color: #f2b179; 
+  color: #fff; 
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+
+#start:hover {
+  background-color: #f59563;
+}
+
+#start:active {
+  background-color: #e88e51; 
+}
+
+/* Board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #bbada0; 
+    width: 400px;
+    height: 400px;
+    border-radius: 15px; 
+    padding: 10px; 
+    margin: 0 auto;
+    border : 5px solid #cdc1b4;
+  }
+  
+  /* Cells */
+  .cell {
+    width: 90px; 
+    height: 90px; 
+    background-color: #cdc1b4;
+    border-radius: 5px;
+    font-size: 32px; 
+    font-weight: bold;
+    text-align: center; 
+    line-height: 90px;
+  }
+  
+  /* Colored Cells */
+  .tile-2 {
+    background-color: #eee4da;
+    color: #776e65;
+  }
+  
+  .tile-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+  }
+  
+  .tile-8 {
+    background-color: #f2b179;
+    color: #f9f6f2;
+  }
+  
+  .tile-16 {
+    background-color: #f59563;
+    color: #f5e5d0;
+  }
+  
+  .tile-32 {
+    background-color: #f78f57;
+    color: #f5d4a8;
+  }
+
+  .tile-64 {
+    background-color: #f57c00;
+    color: #f5b97b;
+  }
+
+  .tile-128 {
+    background-color: #ef6c00;
+    color: #eea55d;
+  }
+
+  .tile-256 {
+    background-color: #e65100;
+    color: #eeb484;
+  }
+
+  .tile-512 {
+    background-color: #d84315;
+    color: #aa4f1e;
+  }
+
+  .tile-1024 {
+    background-color: #bf360c;
+    color: #812a10;
+  }
+
+  .tile-2048 {
+    background-color: #cf0b0b;
+    color: #f9f6f2;
+  }
